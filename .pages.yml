@@ -9,6 +9,21 @@ content:
       - name: title
         label: ชื่อเรื่อง
         type: string
+      - name: cover_image
+        label: รูปภาพหน้าปก
+        type: image
+      - name: date
+        label: วันที่เผยแพร่
+        type: datetime
+      - name: description
+        label: คำเกริ่นนำ (Excerpt / SEO Description)
+        type: string
+      - name: tags
+        label: แท็ก (Tags)
+        type: list
       - name: body
         label: เนื้อหา
+        type: rich-text
+      - name: references
+        label: แหล่งอ้างอิง (References)
         type: rich-text
