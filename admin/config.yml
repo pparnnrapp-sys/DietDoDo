@@ -4,7 +4,7 @@ backend:
 
 media_folder: "images"
 public_folder: "/images"
-
+publish_mode: editorial_workflow
 collections:
   - name: "notes"
     label: "สรุปเนื้อหา (Notes)"
