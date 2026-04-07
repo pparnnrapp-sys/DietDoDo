@@ -6,7 +6,7 @@ content:
     type: collection
     path: blog
     fields:
-      - name: title
+     - name: title
         label: ชื่อเรื่อง
         type: string
       - name: cover_image
@@ -15,8 +15,26 @@ content:
       - name: description
         label: คำเกริ่นนำ (Excerpt / SEO Description)
         type: string
-      - name: body
-        label: เนื้อหา
+      - name: pathophysiology
+        label: 1. พยาธิสภาพของโรค
+        type: rich-text
+      - name: clinical_assessment
+        label: 2. การประเมินทางคลินิก
+        type: rich-text
+      - name: mnt
+        label: 3. โภชนบำบัดทางการแพทย์
+        type: rich-text
+      - name: dietary_guidelines
+        label: 4. แนวทางการจัดการอาหาร
+        type: rich-text
+      - name: food_drug_interactions
+        label: 5. ปฏิกิริยาระหว่างอาหารและยา
+        type: rich-text
+      - name: complication_management
+        label: 6. การจัดการภาวะแทรกซ้อน
+        type: rich-text
+      - name: ncp
+        label: 7. กระบวนการดูแลทางโภชนาการ
         type: rich-text
       - name: references
         label: แหล่งอ้างอิง (References)
