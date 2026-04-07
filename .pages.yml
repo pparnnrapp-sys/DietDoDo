@@ -12,15 +12,9 @@ content:
       - name: cover_image
         label: รูปภาพหน้าปก
         type: image
-      - name: date
-        label: วันที่เผยแพร่
-        type: datetime
       - name: description
         label: คำเกริ่นนำ (Excerpt / SEO Description)
         type: string
-      - name: tags
-        label: แท็ก (Tags)
-        type: list
       - name: body
         label: เนื้อหา
         type: rich-text
