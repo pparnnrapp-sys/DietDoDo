@@ -1,1 +1,15 @@
+backend:
+  name: git-gateway
+  branch: main # หรือ master ดูที่หน้า GitHub ของไอซ์ว่าชื่ออะไร
 
+media_folder: "images" # ที่เก็บรูปภาพ
+public_folder: "/images"
+
+collections: # ส่วนที่บอกว่าเราจะเขียนอะไรบ้าง
+  - name: "blog"
+    label: "Blog"
+    folder: "blog"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
