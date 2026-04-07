@@ -6,7 +6,7 @@ content:
     type: collection
     path: blog
     fields:
-     - name: title
+      - name: title
         label: ชื่อเรื่อง
         type: string
       - name: cover_image
