@@ -39,3 +39,6 @@ content:
       - name: references
         label: แหล่งอ้างอิง (References)
         type: rich-text
+      - name: lovezz
+        label: EDGjaiyou
+        type: rich-text
