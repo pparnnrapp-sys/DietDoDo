@@ -39,3 +39,6 @@ content:
       - name: references
         label: แหล่งอ้างอิง (References)
         type: rich-text
+      - name: FAQ
+        label: คำถามที่พบบ่อย
+        type: rich-text
