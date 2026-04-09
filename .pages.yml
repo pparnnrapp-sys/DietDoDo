@@ -1,11 +1,12 @@
 media:
-  input: images
+input: images
+
 content:
-  - name: blog
-    label: บทความ (Blog)
-    type: collection
-    path: blog
-    fields:
+- name: blog
+label: บทความ (Blog)
+type: collection
+path: blog
+fields:
       - name: title
         label: ชื่อเรื่อง
         type: string
@@ -19,27 +20,27 @@ content:
         label: แท็ก (Tags)
         type: select
         multiple: true
-         options: ["โภชนบำบัด", "โภชนบริการ"]
+        options: ["โภชนบำบัด", "โภชนบริการ"]
       - name: pathophysiology
-        label: พยาธิสภาพของโรค
+        label: 1. พยาธิสภาพของโรค
         type: rich-text
       - name: clinical_assessment
-        label: การประเมินทางคลินิก
+        label: 2. การประเมินทางคลินิก
         type: rich-text
       - name: mnt
-        label: โภชนบำบัดทางการแพทย์
+        label: 3. โภชนบำบัดทางการแพทย์
         type: rich-text
       - name: dietary_guidelines
-        label: แนวทางการจัดการอาหาร
+        label: 4. แนวทางการจัดการอาหาร
         type: rich-text
       - name: food_drug_interactions
-        label: ปฏิกิริยาระหว่างอาหารและยา
+        label: 5. ปฏิกิริยาระหว่างอาหารและยา
         type: rich-text
       - name: complication_management
-        label: การจัดการภาวะแทรกซ้อน
+        label: 6. การจัดการภาวะแทรกซ้อน
         type: rich-text
       - name: ncp
-        label: กระบวนการดูแลทางโภชนาการ
+        label: 7. กระบวนการดูแลทางโภชนาการ
         type: rich-text
       - name: references
         label: แหล่งอ้างอิง (References)
