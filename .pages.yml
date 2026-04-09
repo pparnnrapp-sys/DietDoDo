@@ -22,8 +22,8 @@ content:
           values:
             - โภชนบริการ
             - โภชนบำบัด
-      - name: kn
-        label: ข้อมูลทั่วไป
+      - name: infomation
+        label: รายละเอียด
         type: rich-text
       - name: pathophysiology
         label: พยาธิสภาพของโรค
