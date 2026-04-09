@@ -1,5 +1,4 @@
-media:
-  input: images
+ input: images
 content:
   - name: blog
     label: บทความ (Blog)
