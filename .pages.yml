@@ -2,11 +2,11 @@ media:
 input: images
 
 content:
-- name: blog
-label: บทความ (Blog)
-type: collection
-path: blog
-fields:
+  - name: blog
+    label: บทความ (Blog)
+    type: collection
+    path: blog
+  fields:
       - name: title
         label: ชื่อเรื่อง
         type: string
