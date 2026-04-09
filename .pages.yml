@@ -1,12 +1,11 @@
 media:
-input: images
-
+  input: images
 content:
   - name: blog
     label: บทความ (Blog)
     type: collection
     path: blog
-  fields:
+    fields:
       - name: title
         label: ชื่อเรื่อง
         type: string
@@ -16,11 +15,6 @@ content:
       - name: description
         label: คำเกริ่นนำ (Excerpt / SEO Description)
         type: string
-      - name: tags
-        label: แท็ก (Tags)
-        type: select
-        multiple: true
-        options: ["โภชนบำบัด", "โภชนบริการ"]
       - name: pathophysiology
         label: 1. พยาธิสภาพของโรค
         type: rich-text
