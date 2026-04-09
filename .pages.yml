@@ -20,9 +20,9 @@ content:
         type: select
         options:
            label: โภชนบำบัด
-            value: โภชนบำบัด
+           value: โภชนบำบัด
            label: โภชนบริการ
-            value: โภชนบริการ
+           value: โภชนบริการ
       - name: pathophysiology
         label: 1. พยาธิสภาพของโรค
         type: rich-text
