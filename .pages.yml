@@ -5,6 +5,8 @@ content:
     label: บทความ (Blog)
     type: collection
     path: blog
+    identifier_field: title
+    slug: "{{title}}"
     fields:
       - name: title
         label: ชื่อเรื่อง
