@@ -18,26 +18,28 @@ content:
       - name: tags
         label: แท็ก (Tags)
         type: select
+        multiple: true
+         options: ["โภชนบำบัด", "โภชนบริการ"]
       - name: pathophysiology
-        label: 1. พยาธิสภาพของโรค
+        label: พยาธิสภาพของโรค
         type: rich-text
       - name: clinical_assessment
-        label: 2. การประเมินทางคลินิก
+        label: การประเมินทางคลินิก
         type: rich-text
       - name: mnt
-        label: 3. โภชนบำบัดทางการแพทย์
+        label: โภชนบำบัดทางการแพทย์
         type: rich-text
       - name: dietary_guidelines
-        label: 4. แนวทางการจัดการอาหาร
+        label: แนวทางการจัดการอาหาร
         type: rich-text
       - name: food_drug_interactions
-        label: 5. ปฏิกิริยาระหว่างอาหารและยา
+        label: ปฏิกิริยาระหว่างอาหารและยา
         type: rich-text
       - name: complication_management
-        label: 6. การจัดการภาวะแทรกซ้อน
+        label: การจัดการภาวะแทรกซ้อน
         type: rich-text
       - name: ncp
-        label: 7. กระบวนการดูแลทางโภชนาการ
+        label: กระบวนการดูแลทางโภชนาการ
         type: rich-text
       - name: references
         label: แหล่งอ้างอิง (References)
