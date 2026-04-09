@@ -15,6 +15,14 @@ content:
       - name: description
         label: คำเกริ่นนำ (Excerpt / SEO Description)
         type: string
+      - name: tags
+        label: แท็ก (Tags)
+        type: select
+        options:
+           label: โภชนบำบัด
+            value: โภชนบำบัด
+           label: โภชนบริการ
+            value: โภชนบริการ
       - name: pathophysiology
         label: 1. พยาธิสภาพของโรค
         type: rich-text
