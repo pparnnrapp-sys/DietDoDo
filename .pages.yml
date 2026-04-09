@@ -9,6 +9,7 @@ content:
       - name: title
         label: ชื่อเรื่อง
         type: string
+      - name: cover_image
         label: รูปภาพหน้าปก
         type: image
       - name: description
