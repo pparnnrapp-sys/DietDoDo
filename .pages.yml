@@ -11,9 +11,9 @@ content:
         type: string
       - name: date
         label: วันที่เขียนบทความ
-        type: datetime
+        type: datetiฆme
+        default: "" # ปล่อยว่างไว้ หรือใส่ค่าวันที่ปัจจุบัน
         format: "YYYY-MM-DD"
-        display_format: "DD/MM/YYYY"
       - name: cover_image
         label: รูปภาพหน้าปก
         type: image
