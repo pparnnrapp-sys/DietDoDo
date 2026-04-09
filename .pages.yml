@@ -18,11 +18,6 @@ content:
       - name: tags
         label: แท็ก (Tags)
         type: select
-        options:
-           label: โภชนบำบัด
-           value: โภชนบำบัด
-           label: โภชนบริการ
-           value: โภชนบริการ
       - name: pathophysiology
         label: 1. พยาธิสภาพของโรค
         type: rich-text
