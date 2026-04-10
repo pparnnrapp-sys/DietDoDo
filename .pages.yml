@@ -15,6 +15,9 @@ content:
       - name: description
         label: คำเกริ่นนำ (Excerpt / SEO Description)
         type: string
+      - name: keywords
+        label: คำสำคัญ 
+        type: string
       - name: category
         label: หมวดหมู่บทความ (Category)
         type: select
