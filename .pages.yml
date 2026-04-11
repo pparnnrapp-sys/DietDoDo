@@ -12,9 +12,6 @@ content:
       - name: cover_image
         label: รูปภาพหน้าปก
         type: image
-      - name: description
-        label: คำเกริ่นนำ (Excerpt / SEO Description)
-        type: string
       - name: keywords
         label: คำสำคัญ 
         type: string
