@@ -21,7 +21,7 @@ content:
         options:
           values:
             - โภชนบริการ
-            - โภชนบำบัด
+            - โภชนคลินิก
       - name: infomation
         label: รายละเอียด
         type: rich-text
